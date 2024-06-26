@@ -7,8 +7,25 @@
     --font-secondary: Poppins, sans-serif;
 }
 
+h1 {
+    font-family: var(--font-primary);
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
 .__section_padding {
     padding: 100px 0;
 }
 
 /* Section 1 */
+section.__one {
+    background-color: var(--color-secondary);
+}
+section.__one .__content--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+
