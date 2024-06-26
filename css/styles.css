@@ -1,0 +1,10 @@
+/* Global Styling */
+
+:root {
+    --color-primary: #C59FC9;
+    --color-secondary: #C1E0F7;
+}
+
+body {
+    background-color: var(--color-secondary);
+}
