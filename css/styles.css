@@ -7,14 +7,8 @@
     --font-secondary: Poppins, sans-serif;
 }
 
-/* body {
-    background-color: var(--color-secondary);
-} */
-
-h1 {
-    font-family: var(--font-primary);
+.__section_padding {
+    padding: 100px 0;
 }
 
-p {
-    font-family: var(--font-secondary);
-}
+/* Section 1 */
