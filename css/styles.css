@@ -19,6 +19,19 @@ h1 {
     padding: 100px 0;
 }
 
+/* Global Responsive Styling */
+@media screen and (max-width: 1199px) {
+    .__section_padding {
+        padding: 70px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .__section_padding {
+        padding: 50px 20px;
+    }
+}
+
 /* Section 1 */
 section.__one {
     background-color: var(--color-secondary);
