@@ -53,7 +53,20 @@ section.__two .__content {
 
 
 /* Section 3 */
+section.__three .__content--first-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
 section.__three .__content--first-row .__content--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.__three .__content--first-row .__content--right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,6 +76,7 @@ section.__three .__content--second-row .__content--right {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* Section 3 Responsive Styling*/
@@ -80,6 +94,10 @@ section.__three .__content--second-row .__content--right {
 
 
 
+
+
+
+/* Temporary Responsive Media Query Reference */
 @media screen and (max-width: 1199px) {
     /* body {
         background-color: red;
