@@ -50,13 +50,32 @@ section.__two .__content {
     margin-right: auto;
     text-align: center;
 }
+
+
 /* Section 3 */
-/* section.__three {
+section.__three .__content--first-row .__content--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-} */
+section.__three .__content--second-row .__content--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
-
+/* Section 3 Responsive Styling*/
+@media screen and (min-width: 992px) {
+    section.__three .__image--mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    section.__three .__content--right {
+        display: none;
+    }
+}
 
 
 
