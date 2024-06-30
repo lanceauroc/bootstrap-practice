@@ -97,6 +97,9 @@ section.__four .__content--second-row .__content--right {
     section.__four .__content--first-row .__content--right {
         display: none;
     }
+    section.__four .__content--second-row .__content--left {
+        display: none;
+    }
 }
 
 
