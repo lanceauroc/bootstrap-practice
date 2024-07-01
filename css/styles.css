@@ -44,7 +44,12 @@ h2 {
 /* Section 1 */
 section.__one {
     background-color: var(--color-secondary);
-}s
+}
+section.__one .__content--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
 section.__one .__content--right {
     display: flex;
     flex-direction: column;
